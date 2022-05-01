@@ -31,7 +31,10 @@ For the usage of spacy, the following command could be helpful.
 
 ### 2. Data Preprocessing
 
-Go to [data/wikievents](./data/wikievents) folder and run the following command, which is used to transfer the data formats.
+You can first download the datasets and some scripts [here](https://drive.google.com/file/d/1euuD7ST94b5smaUFo6ROLW_ZasHwDpib/view?usp=sharing).
+You only need to unzip the data.zip.
+
+Then Go to [data/wikievents](./data/wikievents) folder and run the following command, which is used to transfer the data formats.
 
 ```bash
 >> python transfer.py
