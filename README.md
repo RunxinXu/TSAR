@@ -1,11 +1,11 @@
 # TSAR
 
-Source code for NAACL 2022 paper: [A Two-Stream AMR-enhanced Model for Document-level Event Argument Extraction]().
+Source code for NAACL 2022 paper: [A Two-Stream AMR-enhanced Model for Document-level Event Argument Extraction](https://arxiv.org/pdf/2205.00241.pdf).
 
 ## 🔥 Introduction
 
 We focus on extracting event arguments from an entire document, which mainly faces two critical problems: a) the long-distance dependency between trigger and arguments over sentences; b) the distracting context towards an event in the document. To address these issues, we propose a Two-Stream Abstract meaning Representation enhanced extraction model (TSAR). TSAR encodes the document from different perspectives by a two-stream encoding module, to utilize local and global information and lower the impact of distracting context. Besides, TSAR introduces an AMR-guided interaction module to capture both intra-sentential and inter-sentential features, based on the locally and globally constructed AMR semantic graphs. An auxiliary boundary loss is introduced to enhance the boundary information for text spans explicitly. 
-You can refer to our [paper]() for more details.
+You can refer to our [paper](https://arxiv.org/pdf/2205.00241.pdf) for more details.
 
 <div align=center>
 <img width="550" height="350" src="./model.png"/>
