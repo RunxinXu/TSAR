@@ -55,7 +55,7 @@ Then we transfer preprocess for DGL graph by the following script.
 >> python amr2dglgraph.py
 ```
 
-We also directly provide the data [here]() (coming soon).
+We also directly provide the data [here](https://drive.google.com/drive/folders/1GBmvZJJP6f0jUmFaAuvk_q7Nbw_lElH0?usp=sharing).
 In this way, you can just skip the AMR and DGL graph preprocessing steps.
 
 ### 3. Training and Evaluation
